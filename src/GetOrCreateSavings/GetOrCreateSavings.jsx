@@ -35,6 +35,7 @@ export default class GetOrCreateSavings extends React.Component {
   }
 
   render() {
+    
 
     let newAccountStyles = {
       textAlign: 'left',

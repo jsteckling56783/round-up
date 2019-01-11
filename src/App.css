@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Thasadith:light,bold');
 .App {
   text-align: center;
+  justify-content: 'center'
 }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

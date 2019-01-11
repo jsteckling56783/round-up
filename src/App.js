@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import GetOrCreateSavings from "./GetOrCreateSavings/GetOrCreateSavings";
+//import GetOrCreateSavings from "./GetOrCreateSavings/GetOrCreateSavings";
+import CarProgress from "./CarProgress/CarProgress";
 
 
 class App extends Component {
@@ -9,8 +10,7 @@ class App extends Component {
 
     return (
       <div className="App">
-       <GetOrCreateSavings></GetOrCreateSavings>
-        <h5>sup</h5>
+       <CarProgress totalRounded="30.00" weeklyRounded="10.00"></CarProgress>
         
       </div>
     );
