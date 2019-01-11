@@ -1,0 +1,79 @@
+[
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9cc",
+		"medium": "balance",
+		"purchase_date": "2019-01-10",
+		"amount": 15.99,
+		"description": "Jason's Deli"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9cf",
+		"medium": "balance",
+		"purchase_date": "2019-01-10",
+		"amount": 3.21,
+		"description": "Lewis Ginter Botanical Garden"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f995",
+		"medium": "balance",
+		"purchase_date": "2019-01-10",
+		"amount": 132.58,
+		"description": "Hotel Lodging"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9d1",
+		"medium": "balance",
+		"purchase_date": "2019-01-09",
+		"amount": 32.43,
+		"description": "Banana Republic"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9d6",
+		"medium": "balance",
+		"purchase_date": "2019-01-09",
+		"amount": 83.79,
+		"description": "Lowe's Home Improvement"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9d4",
+		"medium": "balance",
+		"purchase_date": "2019-01-08",
+		"amount": 35.23,
+		"description": "Walmart Super Center"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9d3",
+		"medium": "balance",
+		"purchase_date": "2019-01-08",
+		"amount": 24.25,
+		"description": "Lane Bryant"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9d0",
+		"medium": "balance",
+		"purchase_date": "2019-01-08",
+		"amount": 40.09,
+		"description": "Fossil Store"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9ce",
+		"medium": "balance",
+		"purchase_date": "2019-01-08",
+		"amount": 94.35,
+		"description": "Omaha Steaks"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9c6",
+		"medium": "balance",
+		"purchase_date": "2019-01-08",
+		"amount": 20.22,
+		"description": "Vans"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9c3",
+		"medium": "balance",
+		"purchase_date": "2019-01-07",
+		"amount": 27.21,
+		"description": "Texas Roadhouse"
+	}
+]

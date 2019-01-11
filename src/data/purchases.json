@@ -1,0 +1,286 @@
+[
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9c2",
+		"medium": "balance",
+		"purchase_date": "2019-01-17",
+		"amount": 17.63,
+		"round_up": 0.37,
+		"description": "Capital Ale House Downtown"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9c7",
+		"medium": "balance",
+		"purchase_date": "2019-01-16",
+		"amount": 32.49,
+		"round_up": 0.51,
+		"description": "Stella's Restaurant"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9c8",
+		"medium": "balance",
+		"purchase_date": "2019-01-16",
+		"amount": 25.39,
+		"round_up": 0.61,
+
+		"description": "Saxon Shoes"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9cb",
+		"medium": "balance",
+		"purchase_date": "2019-01-16",
+		"amount": 70.43,
+		"round_up": 0.57,
+
+		"description": "Kay Jewelers"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9be",
+		"medium": "balance",
+		"purchase_date": "2019-01-16",
+		"amount": 17.84,
+		"round_up": 0.16,
+		"description": "The Cheesecake Factory"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9bf",
+		"medium": "balance",
+		"purchase_date": "2019-01-16",
+		"amount": 52.34,
+		"round_up": 0.66,
+		"description": "The Home Depot"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9c5",
+		"medium": "balance",
+		"purchase_date": "2019-01-16",
+		"amount": 11.32,
+		"round_up": 0.68,
+
+		"description": "Bandito's Burrito Lounge"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9b4",
+		"medium": "balance",
+		"purchase_date": "2019-01-15",
+		"amount": 17.37,
+		"round_up": 0.63,
+
+		"description": "Ann Taylor Clothing Store"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9b1",
+		"medium": "balance",
+		"purchase_date": "2019-01-15",
+		"amount": 5.92,
+		"round_up": 0.08,
+
+		"description": "Hardywood Park Craft Brewery"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9b5",
+		"medium": "balance",
+		"purchase_date": "2019-01-15",
+		"amount": 9.36,
+		"round_up": 0.64,
+
+		"description": "Party City"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9ba",
+		"medium": "balance",
+		"purchase_date": "2019-01-15",
+		"amount": 30.18,
+		"round_up": 0.82,
+
+		"description": "Texas de Brazil"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9bc",
+		"medium": "balance",
+		"purchase_date": "2019-01-15",
+		"amount": 25.43,
+		"round_up": 0.57,
+
+		"description": "Havana 59"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9ae",
+		"medium": "balance",
+		"purchase_date": "2019-01-14",
+		"amount": 32.45,
+		"round_up": 0.55,
+
+		"description": "Haynes Furniture Store"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9af",
+		"medium": "balance",
+		"purchase_date": "2019-01-14",
+		"amount": 25.32,
+		"round_up": 0.68,
+
+		"description": "Boychiks Deli"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9b2",
+		"medium": "balance",
+		"purchase_date": "2019-01-14",
+		"amount": 45.24,
+		"round_up": 0.76,
+
+		"description": "The Black Sheep Restaurant"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9a2",
+		"medium": "balance",
+		"purchase_date": "2019-01-13",
+		"amount": 67.12,
+		"round_up": 0.88,
+
+		"description": "Target"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9a4",
+		"medium": "balance",
+		"purchase_date": "2019-01-13",
+		"amount": 78.17,
+		"round_up": 0.83,
+
+		"description": "South Moon Under Jewelry Store"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9a6",
+		"medium": "balance",
+		"purchase_date": "2019-01-13",
+		"amount": 7.23,
+		"round_up": 0.77,
+
+		"description": "Krispy Kreme"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9a7",
+		"medium": "balance",
+		"purchase_date": "2019-01-13",
+		"amount": 7.13,
+		"round_up": 0.87,
+
+		"description": "Cold Stone Creamery"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9ab",
+		"medium": "balance",
+		"purchase_date": "2019-01-13",
+		"amount": 25.34,
+		"round_up": 0.66,
+
+		"description": "PepBoys AutoParts"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9ad",
+		"medium": "balance",
+		"purchase_date": "2019-01-13",
+		"amount": 10.17,
+		"round_up": 0.83,
+
+		"description": "Einstein Bros. Bagels"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f99b",
+		"medium": "balance",
+		"purchase_date": "2019-01-12",
+		"amount": 10.37,
+		"round_up": 0.63,
+
+		"description": "Build-A-Bear Workshop"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f99d",
+		"medium": "balance",
+		"purchase_date": "2019-01-12",
+		"amount": 25.61,
+		"round_up": 0.39,
+
+		"description": "Clothing Thrift Store"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f99c",
+		"medium": "balance",
+		"purchase_date": "2019-01-12",
+		"amount": 34.17,
+		"round_up": 0.83,
+
+		"description": "The Boathouse Bar"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f99f",
+		"medium": "balance",
+		"purchase_date": "2019-01-12",
+		"amount": 5.35,
+		"round_up": 0.65,
+
+		"description": "Cafe Caturra"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f9a0",
+		"medium": "balance",
+		"purchase_date": "2019-01-12",
+		"amount": 21.32,
+		"round_up": 0.68,
+
+		"description": "Urban Outfitters"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f997",
+		"medium": "balance",
+		"purchase_date": "2019-01-12",
+		"amount": 57.12,
+		"round_up": 0.88,
+
+		"description": "Walmart Groceries"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f991",
+		"medium": "balance",
+		"purchase_date": "2019-01-11",
+		"amount": 20.04,
+		"round_up": 0.94,
+
+		"description": "Richmond Marriot Restaurant"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f992",
+		"medium": "balance",
+		"purchase_date": "2019-01-11",
+		"amount": 7.21,
+		"round_up": 0.79,
+
+		"description": "Museum Gift Shop"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f995",
+		"medium": "balance",
+		"purchase_date": "2019-01-11",
+		"amount": 132.58,
+		"round_up": 0.42,
+
+		"description": "Hotel Lodging"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f996",
+		"medium": "balance",
+		"purchase_date": "2019-01-11",
+		"amount": 10.27,
+		"round_up": 0.73,
+
+		"description": "Sporting-Goods"
+	},
+	{
+		"merchant_id": "57cf75cfa73e494d8675f994",
+		"medium": "balance",
+		"purchase_date": "2019-01-11",
+		"amount": 15.69,
+		"round_up": 0.31,
+
+		"description": "Mekong Restaurant"
+	}
+]
