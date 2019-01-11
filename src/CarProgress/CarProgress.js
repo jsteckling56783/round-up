@@ -32,7 +32,7 @@ export default class CarProgress extends React.Component {
     var savedPic = car;
     let curPrice = prices[2];
 
-    if(saved<prices[0]){
+    if([0]){
       savedPic = shoes;
       curPrice = prices[0];
     } else if(saved<prices[1]) {
@@ -91,7 +91,7 @@ export default class CarProgress extends React.Component {
             </div>
 
             <h1 style={{color:'#999', fontSize:20, margin:0}}>After {this.state.months} months:</h1>
-            <h1 style={{color:'rgb(180, 229, 100)', fontSize:70, margin:0}}>${Math.ceil(this.state.months*this.state.monthly)}</h1>
+            <h1 style={{color:'rgb(180, 229, 100)', fontSize:70, margin:0}}>${Math.ceil((this.state.months*this.state.monthly)+saved)}</h1>
             <h1 style={{color:'#999', fontSize:16, margin:0}}>If you continue rounding up ${Math.ceil(this.props.weeklyRounded)} per week</h1>
           </Grid>
           <Grid xs={1}>

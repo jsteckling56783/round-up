@@ -51,7 +51,7 @@ export default class GetOrCreateSavings extends React.Component {
           <div id="noSavings">
             <h2 textColor='rgb(180, 229, 100)'>Your future starts today</h2>
             <h4>There is no savings account currently associated with your profile</h4>
-            <Fab id="createBtn" onClick={() => this.createSavings()} backgroundColor='rgb(180, 229, 100)' aria-label="Add"  variant="extended"> Create Savings Account
+            <Fab id="createBtn" onClick={() => this.createSavings()} color='primary' aria-label="Add"  variant="extended"> Create Savings Account
             </Fab>
           </div>
           <div id="congrats" className="container" style={newAccountStyles}>
