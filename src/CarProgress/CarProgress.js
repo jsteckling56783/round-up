@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import car from'../media/tesla2.png';
-import shoes from'../media/shoes.png';
-import flight from'../media/flight2.png';
+import car from'../tesla2.png';
+import shoes from'../shoes.png';
+import flight from'../flight2.png';
 import Grid from '@material-ui/core/Grid/Grid';
 import Hidden from '@material-ui/core/Hidden/Hidden';
 import './carProgress.css';
