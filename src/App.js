@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
-//import GetOrCreateSavings from "./GetOrCreateSavings/GetOrCreateSavings";
-import CarProgress from "./CarProgress/CarProgress";
+//import CompletedRoundsViz from './CompletedRoundsViz/CompletedRoundsViz';
+import CarProgress from './CarProgress/CarProgress';
+import GetOrCreateSavings from './GetOrCreateSavings/GetOrCreateSavings';
 
 
 class App extends Component {
@@ -10,7 +11,23 @@ class App extends Component {
 
     return (
       <div className="App">
-       <CarProgress totalRounded="30.00" weeklyRounded="10.00"></CarProgress>
+       {/*  <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p></p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header> */}
+        <CarProgress totalRounded="30.00" weeklyRounded="10.00"></CarProgress>
+        <GetOrCreateSavings></GetOrCreateSavings>
+        {/* <CompletedRoundsViz></CompletedRoundsViz> */}
         
       </div>
     );

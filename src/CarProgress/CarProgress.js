@@ -70,7 +70,7 @@ export default class CarProgress extends React.Component {
             <div>
               <h1 style={{color:'#999', fontSize:20, margin:0}}>You have saved</h1>
               <h1 style={{color:'rgb(180, 229, 100)', fontSize:70, margin:0}}>${saved}</h1>
-              <h1 style={{color:'#999', fontSize:16, margin:0}}>By rounding up</h1>
+              <h1 style={{color:'#999', fontSize:16, margin:0}}>By rounding up!</h1>
             </div>
           </Grid>
           <Grid xs={1}>
