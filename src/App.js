@@ -25,9 +25,10 @@ class App extends Component {
             Learn React
           </a>
         </header> */}
-        <CarProgress totalRounded="30.00" weeklyRounded="10.00"></CarProgress>
         <GetOrCreateSavings></GetOrCreateSavings>
-        {/* <CompletedRoundsViz></CompletedRoundsViz> */}
+        {/*
+        <CarProgress totalRounded="30.00" weeklyRounded="10.00"></CarProgress>
+         <CompletedRoundsViz></CompletedRoundsViz> */}
         
       </div>
     );

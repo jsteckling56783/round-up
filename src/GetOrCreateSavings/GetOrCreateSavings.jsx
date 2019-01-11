@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fab from '@material-ui/core/Fab';
 import Input from '@material-ui/core/Input';
+import Icon from '@material-ui/core/Icon';
 
 //import AddIcon from '@material-ui/icons/Add';
 
@@ -23,6 +24,7 @@ export default class GetOrCreateSavings extends React.Component {
 
   componentDidMount() {
 
+
     this.TEST_CUSTOMER_ID_NO_CHECKING = "5c37e5d1b8e2a665da3ea9e2";
     this.TEST_CUSTOMER_ID_NO_SAVINGS = "5c38606eb8e2a665da3eb73b";
     this.TEST_CUSTOMER_ID_HAS_SAVINGS = "5c37a14ab8e2a665da3ded20";
@@ -36,30 +38,38 @@ export default class GetOrCreateSavings extends React.Component {
   }
 
   render() {
-    
 
     let newAccountStyles = {
       textAlign: 'left',
       
-      margin: '80px',
+      padding: '5px 35px',
+      margin: '15px',
+      background: 'linear-gradient(to left, rgba(0,190,200,0.1), rgba(0,190,200,0.2))'
     };
 
+    const {classes} = this.props;
+
     return (
-      <div  className="getorcreatesavings">
-        
-        
+      <div  className="getorcreatesavings">        
           <div id="noSavings">
-            <h2 textColor='rgb(180, 229, 100)'>Your future starts today</h2>
-            <h4>There is no savings account currently associated with your profile</h4>
-            <Fab id="createBtn" onClick={() => this.createSavings()} color='primary' aria-label="Add"  variant="extended"> Create Savings Account
+         <br></br>
+
+            <h1 color='rgb(180, 229, 100)'>Your future starts today</h1>
+            <h3>There is no savings account currently associated with your profile. You can create one directly from Round Up today.</h3>
+            <Fab id="createBtn" onClick={() => this.createSavings()}  aria-label="Add"  variant="extended"> Create Savings Account
             </Fab>
           </div>
-          <div id="congrats" className="container" style={newAccountStyles}>
-            <h3>Congratulations! You have successfully created a savings account</h3>
-            <b>Bob's shnazzy savings</b>
-            <p>Savings Account</p>
-            <p>Account Number: 7364 9283 3841 8317</p>
-            <span><p>Balance: $0.00</p></span>
+          <div id="congrats" className="container" >
+          <br></br>
+            <h1>Congratulations!</h1>
+            <h3>You have successfully created a savings account</h3>
+            <div style={newAccountStyles}>
+              <h3>Bob's shnazzy savings</h3>
+              <p>Savings Account</p>
+              <p>Account Number: 7364 9283 3841 8317</p>
+              <span><p>Balance: $0.00</p></span>
+            </div>
+            
 
          
         </div>
@@ -74,12 +84,15 @@ export default class GetOrCreateSavings extends React.Component {
 
    var url = "http://api.reimaginebanking.com/customers/" + this.TEST_CUSTOMER_ID_NO_SAVINGS + "/accounts?key=" + API_KEY;
  
-  ///url = "http://api.reimaginebanking.com/customers/5c37a14ab8e2a665da3ded20/accounts?key=a0cbc71278bf264bca12e7e377984ae8";
+  url = "http://api.reimaginebanking.com/customers/5c37a14ab8e2a665da3ded20/accounts?key=a0cbc71278bf264bca12e7e377984ae8";
   
     
     fetch(url)
     .then(data => {
-      if(data.status===200){
+      document.getElementById('noSavings').style.display = "block";
+      document.getElementById('congrats').style.display = "none";
+      if(data.status===201){
+        console.log(data.json())
         data.json().then(res => {
           if(res && res[0]){
 
@@ -93,8 +106,6 @@ export default class GetOrCreateSavings extends React.Component {
             })
 
             if(savingsAccount){
-              document.getElementById('noSavings').style.display = "none";
-              document.getElementById('congrats').style.display = "block";
               
             } else {
               document.getElementById("noSavings").style.display = "block";
