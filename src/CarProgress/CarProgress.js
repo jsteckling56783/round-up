@@ -43,7 +43,6 @@ export default class CarProgress extends React.Component {
     let carH = w/10;
     let fullCarW = w/5;
     let carCurPercent = Math.min(0.02 + (parseFloat(saved)/curPrice), 1);
-    alert(carCurPercent);
 
     return (
       <div className="car-progress">
