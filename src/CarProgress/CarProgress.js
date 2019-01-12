@@ -32,7 +32,7 @@ export default class CarProgress extends React.Component {
     var savedPic = car;
     let curPrice = prices[2];
 
-    if([0]){
+    if(saved<prices[0]){
       savedPic = shoes;
       curPrice = prices[0];
     } else if(saved<prices[1]) {
@@ -42,7 +42,8 @@ export default class CarProgress extends React.Component {
 
     let carH = w/10;
     let fullCarW = w/5;
-    let carCurPercent = Math.min(0.02 + parseFloat(saved)/curPrice, 1);
+    let carCurPercent = Math.min(0.02 + (parseFloat(saved)/curPrice), 1);
+    alert(carCurPercent);
 
     return (
       <div className="car-progress">
@@ -59,7 +60,7 @@ export default class CarProgress extends React.Component {
           <Grid xs={2}></Grid>
           <Grid xs={3} style={{alignItems:'center'}} className='align-items-xs-center'>
               <div style={{width: fullCarW, height:carH, horizontal:'center', paddingLeft:50}}>
-              <div style={{ zIndex: 100, width: fullCarW*0.1, height:carH, overflow:'hidden', position:'absolute'}}>
+              <div style={{ zIndex: 100, width: fullCarW*carCurPercent, height:carH, overflow:'hidden', position:'absolute'}}>
                   <img  src={savedPic} alt="Car"  style={{width: fullCarW, height:carH}}/>
               </div>
               <div styes={{position:'absolute', zIndex:200}}>

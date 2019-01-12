@@ -26,6 +26,7 @@ class App extends Component {
           </a>
         </header> */}
         <GetOrCreateSavings></GetOrCreateSavings>
+        <CarProgress totalRounded="400.00" weeklyRounded="10.00"></CarProgress>
         {/*
         <CarProgress totalRounded="30.00" weeklyRounded="10.00"></CarProgress>
          <CompletedRoundsViz></CompletedRoundsViz> */}

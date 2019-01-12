@@ -44,7 +44,7 @@ export default class GetOrCreateSavings extends React.Component {
       
       padding: '5px 35px',
       margin: '15px',
-      background: 'linear-gradient(to left, rgba(0,190,200,0.1), rgba(0,190,200,0.2))'
+      background: 'linear-gradient(to left, rgba(0,190,20Ks0,0.1), rgba(0,190,200,0.2))'
     };
 
     const {classes} = this.props;
